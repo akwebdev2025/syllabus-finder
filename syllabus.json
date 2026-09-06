@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "Public Administration",
+    "aliases": "public admin pub adm administration",
+    "course": "BA",
+    "semester": "1",
+    "sourceUrl": "https://puchd.ac.in/",
+    "units": [
+      {
+        "title": "Unit I",
+        "topics": [
+          "Meaning of Public Administration",
+          "Nature of Public Administration",
+          "Scope of Public Administration",
+          "Significance of Public Administration"
+        ]
+      },
+      {
+        "title": "Unit II",
+        "topics": [
+          "Evolution of Public Administration",
+          "Public Administration and Private Administration",
+          "Public Administration and Political Science"
+        ]
+      },
+      {
+        "title": "Unit III",
+        "topics": [
+          "Administrative Organisation",
+          "Hierarchy",
+          "Unity of Command",
+          "Span of Control"
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "Political Science",
+    "aliases": "pol science pol sci politics",
+    "course": "BA",
+    "semester": "1",
+    "sourceUrl": "https://puchd.ac.in/",
+    "units": [
+      {
+        "title": "Unit I",
+        "topics": [
+          "Meaning and nature of Political Science",
+          "Traditional and modern approaches",
+          "State and its elements"
+        ]
+      },
+      {
+        "title": "Unit II",
+        "topics": [
+          "Sovereignty",
+          "Liberty",
+          "Equality",
+          "Justice"
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "History",
+    "aliases": "his",
+    "course": "BA",
+    "semester": "1",
+    "sourceUrl": "https://puchd.ac.in/",
+    "units": [
+      {
+        "title": "Unit I",
+        "topics": [
+          "Introduction to the study of History",
+          "Sources of History",
+          "Historical interpretation"
+        ]
+      }
+    ]
+  }
+]

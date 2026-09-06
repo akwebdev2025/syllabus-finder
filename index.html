@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8b1746">
+  <meta name="description" content="A simple student-friendly Panjab University syllabus finder.">
+  <title>PU Syllabus Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="PU Syllabus Finder home">
+      <span class="brand-icon">📚</span>
+      <span>PU Syllabus Finder</span>
+    </a>
+    <button id="themeBtn" class="icon-btn" aria-label="Toggle dark mode">☾</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-book">📖</div>
+      <p class="eyebrow">PANJAB UNIVERSITY</p>
+      <h1>Find Your<br><span>PU Syllabus</span></h1>
+      <p class="hero-text">Search and explore your syllabus easily. Study smarter, not harder.</p>
+    </section>
+
+    <section class="search-card" aria-label="Syllabus search">
+      <label for="subject">Subject</label>
+      <div class="input-wrap">
+        <span>⌕</span>
+        <input id="subject" type="search" placeholder="e.g. Public Administration" autocomplete="off">
+      </div>
+
+      <label for="course">Course</label>
+      <select id="course">
+        <option value="">All courses</option>
+        <option value="BA">B.A.</option>
+        <option value="BCom">B.Com.</option>
+        <option value="BSc">B.Sc.</option>
+        <option value="MA">M.A.</option>
+        <option value="MCom">M.Com.</option>
+      </select>
+
+      <label for="semester">Semester</label>
+      <select id="semester">
+        <option value="">All semesters</option>
+        <option value="1">Semester 1</option>
+        <option value="2">Semester 2</option>
+        <option value="3">Semester 3</option>
+        <option value="4">Semester 4</option>
+        <option value="5">Semester 5</option>
+        <option value="6">Semester 6</option>
+      </select>
+
+      <button id="searchBtn" class="primary-btn">⌕ &nbsp; Search Syllabus</button>
+    </section>
+
+    <section class="popular">
+      <div class="section-title">
+        <h2>Popular Subjects</h2>
+        <span>Try one</span>
+      </div>
+      <div id="popularSubjects" class="chips"></div>
+    </section>
+
+    <section id="resultsSection" class="results-section hidden">
+      <div class="section-title">
+        <h2>Search Results</h2>
+        <button id="clearBtn" class="text-btn">Clear</button>
+      </div>
+      <p id="resultCount" class="result-count"></p>
+      <div id="results"></div>
+    </section>
+
+    <section id="detailSection" class="detail-section hidden">
+      <button id="backBtn" class="back-btn">← Back to results</button>
+      <article id="detailCard" class="detail-card"></article>
+    </section>
+  </main>
+
+  <footer>
+    <p>PU Syllabus Finder · Student project · <span id="year"></span></p>
+    <p class="disclaimer">Always verify the latest syllabus with the official Panjab University source.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
